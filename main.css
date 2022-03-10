@@ -1,0 +1,114 @@
+*{
+    
+    color: black;
+    
+    
+}
+
+
+/*Card*/
+.card-deck{
+    background-image: url(https://img1.goodfon.com/wallpaper/big/f/1b/abstract-dark-gradient.jpg);
+   
+}
+
+
+
+
+
+/* Classificação indicatoria*/
+.text-muted1{
+    color: white;
+    background-color: orange;
+    
+}
+
+.text-muted2{
+    color: white;
+    background-color: yellow;
+    
+}
+
+.text-muted3{
+    color: white;
+    background-color: orange;
+    
+}
+
+.text-muted4{
+    color: white;
+    background-color: yellow;
+    
+}
+
+.text-muted5{
+    color: white;
+    background-color: green;
+    
+}
+
+.text-muted6{
+    color: white;
+    background-color: red;
+    
+}
+
+/*Titulo do filme*/
+.title-bat1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+}
+
+.title-ara1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 5);
+}
+
+.title-pod1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 5);
+}
+
+.title-unc1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 5);
+}
+
+.title-sin1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 5);
+}
+
+
+.title-exo1{
+    color: white;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 5);
+}
+
+
+/*Genero do Filme*/
+.text-muted{
+    display: flex; 
+    justify-content : center;
+}
+
+/*Footer*/
+.footer-rodape{
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(82, 28, 110);
+    padding: 0px;
+}
