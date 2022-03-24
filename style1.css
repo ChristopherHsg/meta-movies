@@ -1,0 +1,91 @@
+/*Batman*/
+*{
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: black;
+    
+}
+
+
+
+
+
+.card{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 17px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: ridge;
+}
+
+/*Titulo do filme*/
+
+.card-img-overlay{
+    margin-top: 40px;
+    justify-content: left;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+}
+.title-bat1{
+    color: white;
+    display: flex;
+    justify-content: left;
+    -webkit-text-stroke:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+   
+}
+
+/*Sinopse do filme*/
+.card-mb-1{
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.card-mb-2{
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.col-md-4{
+    max-width: 178px;
+}
+
+/*Footer*/
+.footer-rodape{
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(73, 73, 73, 0.425);
+    margin-bottom: 0px;
+    height: 22px;
+}

@@ -6,19 +6,27 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Meta Movies</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+
+
 </head>
 
 <body>
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Meta Movies</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      </div>
+    </div>
+  </nav>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -31,8 +39,11 @@
   </nav>
   <!--/Navbar-->
 
+<div>
+
+  
   <!--Card1-->
-  <div class="card-deck">
+  <div class="row">
     <div class="card">
       <img src="https://cdnim.prd.cineticket.com.br/asset/movie/7561/batman-poster-desktop-4432.jpg"
         class="card-img-top" alt="Homem Aranha">
@@ -59,9 +70,9 @@
       <div class="card-body">
         <h5 class="card-title">Homem-Aranha: Sem Volta Para Casa</h5>
         </td>
-        <p align=justify class="card-text"></p>Pela primeira vez na história cinematográfica do Homem-Aranha, nosso
+        <p align=justify class="card-text">Pela primeira vez na história cinematográfica do Homem-Aranha, nosso
         herói amigo da vizinhança é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser
-        um super-herói...
+        um super-herói...</p>
         </td>
       </div>
       <div class="card-footer " >
@@ -91,8 +102,10 @@
 
       </div>
     </div>
+    
 
     <!--Card4-->
+    <!--<div class="row">-->
     <div class="card">
       <img src="https://cdnim.prd.cineticket.com.br/asset/movie/7327/uncharted-fora-do-mapa-poster-desktop-4425.jpg"
         class="card-img-top" alt="...">
@@ -143,16 +156,14 @@
       </div>
       <div class="card-footer">
         <a href="exorcismo.html"><button type="button" class="btn btn-outline-danger">Ver Detalhes</button></a>
-        <small class="text-muted6"><b> 16 </b></small>
+        <small class="text-muted6"><b > 16 </b></small>
         <br>
         <small class="text-muted"><b>Gênero:</b> Terror</small>
       </div>
     </div>
   </div>
 
-  <footer class="footer-rodape">
-    <p> &copy; Todos os direitos reservados</p>
-  </footer>
+ 
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -164,6 +175,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+
+    <footer class="footer-rodape">
+      <p> &copy; Todos os direitos reservados</p>
+    </footer>
 </body>
 
 </html>
